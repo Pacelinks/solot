@@ -1,39 +1,38 @@
 using System;
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("What is your score percentage? ");
+        Console.Write("Enter your score grade?");
         string answer = Console.ReadLine();
-        int percent = int.Parse(answer);
-
+         int percent = int.Parse(answer);
+   
         string letter = "";
 
         if (percent >= 90)
         {
-            letter = "A";
+           Console.WriteLine("A");
         }
-        else if (percent >= 80)
+        else if (percent >=80)
         {
-            letter = "B";
+           Console.WriteLine("B");
         }
-        else if (percent >= 70)
+else if (percent >=70)
         {
-            letter = "C";
+            Console.WriteLine("C");
         }
-        else if (percent >= 60)
+        else if (percent >=60)
         {
-            letter = "D";
+            Console.WriteLine("D");
         }
         else
         {
-            letter = "F";
+            Console.WriteLine("F");
         }
 
         Console.WriteLine($"Your grade is: {letter}");
         
-        if (percent >= 70)
+        if (percent>= 70)
         {
             Console.WriteLine("You passed!");
         }
@@ -41,5 +40,6 @@ class Program
         {
             Console.WriteLine("You need to work hard again");
         }
-    }
-}
+    
+
+

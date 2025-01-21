@@ -1,0 +1,44 @@
+Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.
+
+Benefits of Version Control
+
+Tracking Code Changes The main point of any version control system is to track changes in files and code over time. This is achieved by keeping an extensive history of all activity on a collection of code (called a repository). ...
+Traceability ...
+Streamlined Branching and Merging ...
+Code Experimentation ...
+Managing and Protecting the Source Code ...
+Final Thoughts on Benefits of Version Control …
+
+Example of version control: Describe the way version control might be used on a software development team.
+
+Document version control examples: naming conventions
+Using the same file name throughout the life of the document.
+Using the same characters to separate words in the file name (usually spaces, dashes, or underscores)
+Using a consistent suffix to indicate the version number of the file (usually v1, v2, and so on)
+
+Two common distributed version control systems are Git and Mercurial.
+
+In Programing Version control take place when the changes to software code can be track and manage and contribution or changes made by team member can be noted.
+the Benefit of Version Control Include but are not limited to the following: 
+
+The advantage of version control.
+1. It encourage experimentation 
+2. It is ease to manage and protect the source  code 
+3. The activity of each contributor is traceable. 
+4. it enhance merging of code 
+
+Example of Version control are  Git and Mercuria
+Github is an open source website that can be used for Version control and the first step is registering and creating a repository it is often refer to as  "repo" . We the clone the repo to our computer. Changes made are also possible to create one directly using git init and then push it to GitHub later.)
+
+Version control might be used on a software development team for collaboration and it keep the history of all the changes that are made by the team members. 
+
+Command use in Git include 
+git status
+git-list 
+git add
+git restore
+git push
+git-create-branch 
+git-list-branches 
+git-switch-branch 
+git-pull-branch 
